@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 1.7.170 {:static-fns true, :optimize-constants true}
+// Compiled by ClojureScript 1.7.170 {}
 goog.provide('re_frame.core');
 goog.require('cljs.core');
 goog.require('re_frame.subs');
@@ -23,23 +23,23 @@ re_frame.core.log_ex = re_frame.middleware.log_ex;
 re_frame.core.on_changes = re_frame.middleware.on_changes;
 re_frame.core.set_loggers_BANG_ = re_frame.utils.set_loggers_BANG_;
 re_frame.core.register_handler = (function re_frame$core$register_handler(var_args){
-var args16090 = [];
-var len__5729__auto___16093 = arguments.length;
-var i__5730__auto___16094 = (0);
+var args24395 = [];
+var len__17863__auto___24398 = arguments.length;
+var i__17864__auto___24399 = (0);
 while(true){
-if((i__5730__auto___16094 < len__5729__auto___16093)){
-args16090.push((arguments[i__5730__auto___16094]));
+if((i__17864__auto___24399 < len__17863__auto___24398)){
+args24395.push((arguments[i__17864__auto___24399]));
 
-var G__16095 = (i__5730__auto___16094 + (1));
-i__5730__auto___16094 = G__16095;
+var G__24400 = (i__17864__auto___24399 + (1));
+i__17864__auto___24399 = G__24400;
 continue;
 } else {
 }
 break;
 }
 
-var G__16092 = args16090.length;
-switch (G__16092) {
+var G__24397 = args24395.length;
+switch (G__24397) {
 case 2:
 return re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -49,17 +49,17 @@ return re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$3((arguments[(
 
 break;
 default:
-throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args16090.length)].join('')));
+throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args24395.length)].join('')));
 
 }
 });
 
 re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$2 = (function (id,handler){
-return re_frame.handlers.register_base.cljs$core$IFn$_invoke$arity$3(id,re_frame.core.pure,handler);
+return re_frame.handlers.register_base.call(null,id,re_frame.core.pure,handler);
 });
 
 re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$3 = (function (id,middleware,handler){
-return re_frame.handlers.register_base.cljs$core$IFn$_invoke$arity$3(id,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_frame.core.pure,middleware], null),handler);
+return re_frame.handlers.register_base.call(null,id,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [re_frame.core.pure,middleware], null),handler);
 });
 
 re_frame.core.register_handler.cljs$lang$maxFixedArity = 3;
@@ -76,5 +76,7 @@ re_frame.core.register_handler.cljs$lang$maxFixedArity = 3;
  *   
  */
 re_frame.core.add_post_event_callback = (function re_frame$core$add_post_event_callback(f){
-return re_frame.router.add_post_event_callback(re_frame.router.event_queue,f);
+return re_frame.router.add_post_event_callback.call(null,re_frame.router.event_queue,f);
 });
+
+//# sourceMappingURL=core.js.map?rel=1455751535292

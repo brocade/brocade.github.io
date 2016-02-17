@@ -1,5 +1,7 @@
-// Compiled by ClojureScript 1.7.170 {:static-fns true, :optimize-constants true}
+// Compiled by ClojureScript 1.7.170 {}
 goog.provide('re_frame.db');
 goog.require('cljs.core');
 goog.require('reagent.core');
-re_frame.db.app_db = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
+re_frame.db.app_db = reagent.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
+
+//# sourceMappingURL=db.js.map?rel=1455751534376

@@ -50,10 +50,3 @@ goog.addDependency("../re_frame/middleware.js", ['re_frame.middleware'], ['reage
 goog.addDependency("../re_frame/core.js", ['re_frame.core'], ['cljs.core', 're_frame.router', 're_frame.utils', 're_frame.handlers', 're_frame.subs', 're_frame.middleware']);
 goog.addDependency("../github/state.js", ['github.state'], ['cljs.core']);
 goog.addDependency("../github/page.js", ['github.page'], ['ajax.core', 'reagent.core', 'cljs.core', 'cljs.core.async', 'cljs.reader', 're_frame.core', 'github.state']);
-goog.addDependency("../figwheel/client/utils.js", ['figwheel.client.utils'], ['cljs.core', 'clojure.string']);
-goog.addDependency("../figwheel/client/file_reloading.js", ['figwheel.client.file_reloading'], ['goog.string', 'goog.net.jsloader', 'goog.Uri', 'cljs.core', 'goog.object', 'cljs.core.async', 'clojure.set', 'figwheel.client.utils', 'clojure.string']);
-goog.addDependency("../cljs/repl.js", ['cljs.repl'], ['cljs.core']);
-goog.addDependency("../figwheel/client/socket.js", ['figwheel.client.socket'], ['cljs.core', 'figwheel.client.utils', 'cljs.reader']);
-goog.addDependency("../figwheel/client/heads_up.js", ['figwheel.client.heads_up'], ['goog.string', 'cljs.core', 'cljs.core.async', 'figwheel.client.socket', 'clojure.string']);
-goog.addDependency("../figwheel/client.js", ['figwheel.client'], ['goog.userAgent.product', 'goog.Uri', 'cljs.core', 'cljs.core.async', 'figwheel.client.file_reloading', 'figwheel.client.utils', 'cljs.repl', 'figwheel.client.heads_up', 'figwheel.client.socket', 'clojure.string']);
-goog.addDependency("../figwheel/connect.js", ['figwheel.connect'], ['github.page', 'cljs.core', 'figwheel.client', 'figwheel.client.utils']);

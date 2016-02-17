@@ -2,4 +2,4 @@
 goog.provide('reagent.interop');
 goog.require('cljs.core');
 
-//# sourceMappingURL=interop.js.map?rel=1455751531212
+//# sourceMappingURL=interop.js.map

@@ -34,21 +34,21 @@ throw (new Error([cljs.core.str("Assert failed: "),cljs.core.str("Could not find
  * Turns a component into an HTML string.
  */
 reagent.dom.server.render_to_string = (function reagent$dom$server$render_to_string(component){
-var _STAR_non_reactive_STAR_24010 = reagent.impl.util._STAR_non_reactive_STAR_;
+var _STAR_non_reactive_STAR_20072 = reagent.impl.util._STAR_non_reactive_STAR_;
 reagent.impl.util._STAR_non_reactive_STAR_ = true;
 
 try{return (reagent.dom.server.server["renderToString"])(reagent.impl.template.as_element.call(null,component));
-}finally {reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR_24010;
+}finally {reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR_20072;
 }});
 /**
  * Turns a component into an HTML string, without data-react-id attributes, etc.
  */
 reagent.dom.server.render_to_static_markup = (function reagent$dom$server$render_to_static_markup(component){
-var _STAR_non_reactive_STAR_24012 = reagent.impl.util._STAR_non_reactive_STAR_;
+var _STAR_non_reactive_STAR_20074 = reagent.impl.util._STAR_non_reactive_STAR_;
 reagent.impl.util._STAR_non_reactive_STAR_ = true;
 
 try{return (reagent.dom.server.server["renderToStaticMarkup"])(reagent.impl.template.as_element.call(null,component));
-}finally {reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR_24012;
+}finally {reagent.impl.util._STAR_non_reactive_STAR_ = _STAR_non_reactive_STAR_20074;
 }});
 
-//# sourceMappingURL=server.js.map?rel=1455751533144
+//# sourceMappingURL=server.js.map

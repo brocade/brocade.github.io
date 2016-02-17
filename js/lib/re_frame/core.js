@@ -23,23 +23,23 @@ re_frame.core.log_ex = re_frame.middleware.log_ex;
 re_frame.core.on_changes = re_frame.middleware.on_changes;
 re_frame.core.set_loggers_BANG_ = re_frame.utils.set_loggers_BANG_;
 re_frame.core.register_handler = (function re_frame$core$register_handler(var_args){
-var args24395 = [];
-var len__17863__auto___24398 = arguments.length;
-var i__17864__auto___24399 = (0);
+var args23328 = [];
+var len__17863__auto___23331 = arguments.length;
+var i__17864__auto___23332 = (0);
 while(true){
-if((i__17864__auto___24399 < len__17863__auto___24398)){
-args24395.push((arguments[i__17864__auto___24399]));
+if((i__17864__auto___23332 < len__17863__auto___23331)){
+args23328.push((arguments[i__17864__auto___23332]));
 
-var G__24400 = (i__17864__auto___24399 + (1));
-i__17864__auto___24399 = G__24400;
+var G__23333 = (i__17864__auto___23332 + (1));
+i__17864__auto___23332 = G__23333;
 continue;
 } else {
 }
 break;
 }
 
-var G__24397 = args24395.length;
-switch (G__24397) {
+var G__23330 = args23328.length;
+switch (G__23330) {
 case 2:
 return re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -49,7 +49,7 @@ return re_frame.core.register_handler.cljs$core$IFn$_invoke$arity$3((arguments[(
 
 break;
 default:
-throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args24395.length)].join('')));
+throw (new Error([cljs.core.str("Invalid arity: "),cljs.core.str(args23328.length)].join('')));
 
 }
 });
@@ -79,4 +79,4 @@ re_frame.core.add_post_event_callback = (function re_frame$core$add_post_event_c
 return re_frame.router.add_post_event_callback.call(null,re_frame.router.event_queue,f);
 });
 
-//# sourceMappingURL=core.js.map?rel=1455751535292
+//# sourceMappingURL=core.js.map

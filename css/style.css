@@ -1,0 +1,23 @@
+nav.brocade-red{
+ background-color: #9B132A;
+}
+
+.brocade-logo {
+  display: inline-block;
+  width: 121px;
+  height: 28px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  background: url(/img/sprite-global-2x.png) 0 0;
+  background-color:transparent;
+  background-repeat:no-repeat;
+  background-position: 0 -50px;
+  background-size: 135px 78px;
+}
+
+.sub-title {
+  display: inline-block;
+  position: absolute;
+  font-size: 1.7rem;
+  margin-left: 3px;
+}

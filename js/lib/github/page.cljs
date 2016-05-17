@@ -89,9 +89,12 @@
 
 (defn repo-template
       [title desc main link]
-          ^{:key title} [:div.col.s12.m6
-            [:div.card.small
-             [:div.card-content
+          ^{:key title}
+           [:div.col.s12.m6
+            [:div.card.small.hoverable
+             [:div.ribbon
+              [:span "Brocade"]]
+              [:div.card-content
               [:span.card-title title]
               [:p desc]
              ]
